@@ -4,7 +4,8 @@ install:
 
 test:
 
-	python -m pytest -vv hello_test.py
+	# python -m pytest -vv hello_test.py     ////Testing only one file
+	 python -m pytest -vv --cov=hello hello_test.py
 	# python -m pytest -vvv --cov=hello --cov=greeting \
 	# 	--cov=smath --cov=web tests
 	# python -m pytest --nbval notebook.ipynb	#tests our jupyter notebook
