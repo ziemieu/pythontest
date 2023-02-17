@@ -14,7 +14,7 @@ def test_mary(mary):
     assert "Mary" == my_name("Mary")
 
 def test_john(john):
-    assert "John" == my_name("Mary")
+    assert "John" == my_name("John")
 
 ##### This is for testing module
 # def test_my_name():
