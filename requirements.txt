@@ -4,3 +4,5 @@ pylint==2.11.1
 black==21.9b0
 ipython==7.28.0
 click==8.0.2
+nbval==0.10.0
+coverage==7.1.0
