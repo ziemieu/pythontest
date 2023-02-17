@@ -8,6 +8,7 @@ test:
 	#  python -m pytest -vv --cov=hello hello_test.py ////Testing withonly one file i.e hello_test.py
 	# python -m pytest -vv --cov=hello tests ///Testinf only hello pytest cov
 	python -m pytest -vv --cov=hello --cov=greeting tests/
+	python -m pytest --nbval notebook.ipynb	#tests our jupyter notebook
 	
 	# python -m pytest -vvv  --cov=greeting  tests/
 	# 	--cov=smath --cov=web testss
