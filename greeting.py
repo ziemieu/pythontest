@@ -7,3 +7,5 @@ def my_name(name):
 if __name__ == "__main__":
 
     my_name("Mary")
+
+   

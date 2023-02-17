@@ -15,7 +15,7 @@ test:
 	#python -m pytest -v tests/test_web.py #if you just want to test web
 
 one-test:
-	#Test for one module
+	#Test for one function in a module only
 	python -m pytest -vv tests/test_greeting.py::test_my_name
 
 debug:
